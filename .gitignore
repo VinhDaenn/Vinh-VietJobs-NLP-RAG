@@ -1,0 +1,17 @@
+# Python runtime / notebook
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+# Không đẩy file CSV gốc >100 MB lên GitHub thông thường
+data/VietJobs.csv
+# File CSV nén data/VietJobs.csv.gz được phép commit nếu <100 MiB
+# Kết quả huấn luyện (có thể nặng)
+vinh_vietjobs_models/
+*.joblib
+*.pkl
+chroma_db/
+.cache/
+.DS_Store
